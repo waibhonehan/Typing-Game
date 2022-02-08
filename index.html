@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Webicon.png">
+    <script src="https://kit.fontawesome.com/bbdccb4e58.js" crossorigin="anonymous"></script>
+    <title>Fastyping</title>
+</head>
+<body>
+    <nav>
+        <img src="icon.png" id="name">
+
+        <div class="navs">
+            <a href="#" id="login">Log in</a>
+            <a href="#" id="singUp">Sign up</a>
+            <a href="#" id="on"><i class="fas fa-volume-up"></i></a>
+            <a href="#" id="off"><i class="fas fa-volume-mute"></i></a>
+        </div>
+    </nav>
+
+<div class="buttons">
+</div>
+<div id="textShow">
+    <p id="random"></p>
+</div>
+<br>
+<br>
+<div class="box">
+    <textarea id="typedWord" placeholder="Type above the word" style="width: 79%; height: 20%;"></textarea>
+    <span id="clock">0:<span id="time">00</span></span>
+    <span><img id="skip" src="skip.png" onclick="skip()"></span>
+</div>    
+<br><br>
+<button id="start" onclick="start()">Start</button>
+<button id="back" onclick="back()">Back</button>
+<button id="refresh"><i class="fas fa-redo"></i></button>
+<h2 id="showScore"><i class="fas fa-award"></i><span id="score">0</span></h2>
+</body>
+<script src="code.js"></script>
+</html>
